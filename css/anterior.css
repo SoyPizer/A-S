@@ -1,0 +1,303 @@
+html { 
+	width: 100%;
+	height: 100%;
+}
+body {
+	background-color: #FFF;
+	color: #10253d;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: verdana;
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0px 0;
+}
+ul, ol, li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0
+}
+a, a:link, a:visited {
+	text-decoration: none;
+}
+
+
+.cabecera-home{
+	display: block;
+	min-height: 180px;
+}
+.top-blue{
+	display: block;
+	background: #10253d;
+	height: 40px;
+
+}
+.logo{
+	display: block;
+	padding: 20px 0px;
+	float: left;
+}
+.meu{
+	padding: 40px 0px;
+	float: right;
+	width: 60%;
+}
+.slider-home{
+	display: block;
+;
+}
+/* Acceso Cotizacion*/ 
+.accesos{
+	display: block;
+	min-height: 120px;
+	background: #e3e3e3;
+	padding: 35px 0px;
+	vertical-align: middle;
+}
+.accesos p{
+	font-size: 24px;
+	padding: 0px 0px;
+	vertical-align: top;
+	line-height: 25px;
+}
+.accesos a{
+	color: #10253d;
+	font-size: 30px;
+	padding: 0px 0px;
+	vertical-align: middle;
+	line-height: 25px;
+	font-weight: 10px;
+}
+.accesos a button{
+	font-size: 20px;
+	font-weight: 200;
+}
+.accesos a i{
+	font-size: 40px;
+}
+/* Acceso Cotizacion*/ 
+.servicios{
+	padding: 70px 0px;
+	/*background: #10253d;*/
+}
+ul.serv-li{
+	display: block;
+	padding: 0px 0px;	
+}
+ul.serv-li li{
+	display: inline-block;
+	list-style: none;	
+	margin-right: 55px;
+	margin-left: 55px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ul.serv-li li a{
+	display: block;
+	width: 145px;
+	text-align: center;
+	color: #10253d;
+	font-weight: 700;
+	font-family: verdana;
+}
+ul.serv-li li i{
+	text-align: center;
+	font-size: 60px;
+}
+ul.serv-li li:last-child{
+	margin-right: 0px;
+}
+/* Saludo*/ 
+.saludo{
+	padding: 100px 0px;
+}
+.saludo h4{
+	font-size: 235%;
+	padding-right: 20px;
+	/*padding-top: 5%;*/
+}
+/*Footer principal*/
+footer.pie-pagina{
+	background: #10253d;
+	padding: 20px 0px; 
+
+}
+footer.pie-pagina h5,
+footer.pie-pagina ul li {
+	color: #fff;
+}
+
+footer.pie-pagina hr{	
+	background: #fff;
+}
+
+footer.pie-pagina ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+form.suscribete{
+	padding: 30px 0px;
+}
+form.suscribete .suscrib{
+	padding: 5px 0px;
+	color: #10253d;
+}
+
+ul.mapas-redes li{
+	color: #fff;
+	display: block;	
+	padding: 0px 0px;
+	text-decoration: none;
+	list-style: none;
+}
+ul.mapas-redes li a{
+	color: #fff;
+	padding: 0px 0px;
+	text-decoration: none;
+	list-style: none;
+}
+ul.footer-link{
+	text-align: center;
+}
+ul.footer-link  li{	
+	color: #fff;
+	list-style: none;
+	display: inline-block;	
+	padding: 0px 10px;
+	border-left: 2px solid #fff;
+}
+ul.footer-link li:first-child{
+	border-left: 0px solid #fff;
+}
+.pie-link p{
+	padding: 10px 0px;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*======== Internas =========*/ 
+.blanco{
+	display: block;
+	height: 80px;
+	background: #fff;
+}
+.slider-internas{
+	height: 300px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url("../imagenes/slide-inter.png");
+	padding: 80px;
+	color: #fff;
+}
+.contentInter{
+	padding: 70px 0px;
+	font-size: 25px;
+}
+.mision-vision{
+	padding: 60px 0px;
+	background: #10253d;
+	color: #fff;
+	text-align: center;
+}
+.equipo{
+	padding: 70px 0px;
+	text-align: center;
+}
+.equipo ul{
+	display: block;
+}
+.equipo ul li{
+	display: inline-block;
+	padding-right: 50px;
+}
+.equipo ul li a{
+	padding: 20px 0px;
+	color: #10253d;
+}
+.espacios{
+	padding: 60px 0px;
+}
+/* =========== Videos =========== */
+.estructura-videos{
+	display: block;
+	list-style: none;	
+}
+.estructura-videos li{
+	display: inline-block;
+	list-style: none;
+	width: 350px;
+	border: solid 1px #969696;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+.estructura-videos li a{
+	padding: 0px 0px;
+}
+.estructura-videos li a img{
+	width: 100%;	
+	height: auto;
+	padding: 0px 0px;
+}
+.estructura-videos li h3{
+	padding: 10px 10px;
+	font-size: 20px;
+}
+.estructura-videos li h4{
+	padding: 10px 10px;
+	font-weight: 500;
+}
+.estructura-videos li p{
+	padding: 10px 10px;
+	font-size: 14px;
+}
+.estructura-videos li hr{
+	padding: 0px 0px;	
+}
+ .marco{
+ 	border: solid 1px #969696;
+ 	padding: 30px;
+ 	margin-bottom: 20px;
+ }
+ .categorias li a{
+ 	list-style: none;
+ 	text-decoration: none;
+ }
+  .sinmarco{
+ 	border: solid 1px #969696;
+ 	margin-bottom: 20px;
+ 	height: 500px;
+ }
+
+.buscador{
+	border: none;
+	background: #fff;
+	color: #10253d;
+	text-decoration: none;
+	padding: 0px 0px;
+  	display: inline-block;
+ 	font-size: 30px;
+}
+.contacto-form{
+	width: 350px;
+}
+.contacto-form input{
+	margin-bottom: 20px;
+
+}
+.bloque{
+	color: #fff;
+	background: #10253d;
+	padding: 40px;
+	font-size: 18px;
+}
+.servp{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 22px;
+}
